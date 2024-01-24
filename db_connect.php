@@ -4,7 +4,7 @@ ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
 // modify these settings according to the account on your database server.
-$host = "www.db4free.net/jokesdb";
+$host = "db4free.net:3306/jokesdb";
 $port = "3306";
 $username = "cst350";
 $user_pass = "cst350clc";
