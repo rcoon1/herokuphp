@@ -21,8 +21,6 @@ echo $keywordfromform;
 echo "<h2>Show all jokes with the word " . $keywordfromform . "</h2>";
 
 $sql = "SELECT JokeID, Joke_question, Joke_answer FROM Jokes_table WHERE Joke_question LIKE '%$keywordfromform%'";
-
-echo "SQL statement = " . $sql . "<br>";
 $result = $mysqli->query($sql);
 
 if ($result->num_rows > 0) {

@@ -20,7 +20,9 @@ error_reporting(E_ALL);
 
     include "db_connect.php"; 
 ?>
-
+<a href="register_new_user.php">Register</a>
+<a href="login_form.php">Login</a>
+<a href="logout.php">Logout</a>
 <form class="form-horizontal" action="search_keyword.php">
 <fieldset>
     <legend>Search for a Joke</legend>
