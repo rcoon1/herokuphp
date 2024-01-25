@@ -4,11 +4,11 @@ ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
 // modify these settings according to the account on your database server.
-$host = "85.10.205.173:3307";
-//$port = "3306";
-$username = "cst350";
-$user_pass = "cst350clc";
-$database_in_use = "jokesdb";
+$host = "sql.freedb.tech";
+$port = "3306";
+$username = "freedb_ryan361";
+$user_pass = "PM5E*cU*!6rstsW";
+$database_in_use = "freedb_jokesdb";
 
 
 $mysqli = new mysqli($host, $username, $user_pass, $database_in_use);
