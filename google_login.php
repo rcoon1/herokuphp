@@ -163,3 +163,4 @@ if (isset($authUrl)) {
             height:100px;
             }
             </style>
+            <a href="index.php">Back to Main</a>
