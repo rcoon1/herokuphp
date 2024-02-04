@@ -23,6 +23,7 @@ error_reporting(E_ALL);
 <a href="register_new_user.php">Register</a>
 <a href="login_form.php">Login</a>
 <a href="logout.php">Logout</a>
+<a href="google_login.php">Google Login</a>
 <form class="form-horizontal" action="search_keyword.php">
 <fieldset>
     <legend>Search for a Joke</legend>
