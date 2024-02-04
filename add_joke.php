@@ -2,7 +2,7 @@
 <?php
 session_start();
 
-if (! $_SESSION['username']) {
+if (! $_SESSION['userid']) {
     echo "Only logged in users may access this page.  Click <a href='login_form.php'here </a> to login<br>";
     exit;
 }
