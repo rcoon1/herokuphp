@@ -14,7 +14,7 @@ $client_secret = "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";
 // this URL might have a port number
 // $redirect_url = "http://localhost:8888/jokes-basic/google_login.php";
 // or not
-$redirect_url = "http://localhost/jokes-basic4/google_login.php";
+$redirect_url = "https://jokesapp-5e6f51d6c310.herokuapp.com/google_login.php";
 
 #############My SQL Detail#############
 $db_username = "freedb_ryan361"; //Database Username
