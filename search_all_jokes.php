@@ -1,7 +1,7 @@
 <?php
 include "db_connect.php";
 
-$sql = "SELECT JokeID, Joke_question, Joke_answer, user_id, username, google_name FROM Jokes_table AS us JOIN users  on Jokes_table.user_id = users.id";
+$sql = "SELECT JokeID, Joke_question, Joke_answer, user_id, username, google_name FROM Jokes_table AS us JOIN users  on Jokes_table user_id = users.id";
 $result = $mysqli->query($sql);
 
 if ($result->num_rows > 0) {
