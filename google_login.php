@@ -17,10 +17,10 @@ $client_secret = "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";
 $redirect_url = "http://localhost/jokes-basic4/google_login.php";
 
 #############My SQL Detail#############
-$db_username = "root"; //Database Username
-$db_password = "root";//Database Password
-$host_name = "localhost"; //MySQL Hostname
-$db_name = "jokesdb"; //Database Name
+$db_username = "freedb_ryan361"; //Database Username
+$db_password = "PM5E*cU*!6rstsW";//Database Password
+$host_name = "sql.freedb.tech"; //MySQL Hostname
+$db_name = "freedb_jokesdb"; //Database Name
 $port = 3306;#######################################
 
 //create a new connection to the Google login service
@@ -163,4 +163,3 @@ if (isset($authUrl)) {
             height:100px;
             }
             </style>
-            <a href="index.php">Back to Main</a>
